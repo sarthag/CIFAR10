@@ -1,11 +1,15 @@
 # CIFAR10
-Solving the CIFAR10 dataset using a shallow CNN and trying out different architectures.
+The CIFAR10 dataset is a popular dataset containing coulured images of 10 different objects in different states and their labels 
+Solving the CIFAR10 dataset using a shallow CNN ans Resnet and trying out different architectures.
 This project involves an analysis of acuuracy and loss over epochs based on controlled variations in the learning rates. 
 
 Frameworks used: PyTorch, NumPy, Pandas, Matplotlib, Torchvision.
 
 Preprocessing:
 ![image](https://user-images.githubusercontent.com/74304695/183104278-152d4e30-26a0-4417-b450-62a5090e22b7.png)
+
+![image](https://user-images.githubusercontent.com/74304695/183114191-2a41ad9f-8ff4-478d-a6d9-fa438e148700.png)
+
 
 The data preprocessing done via Torchvision transforms involves normalizing the images, followed by randomly cropping, flipping and reflecting the images in order to include variaton in the dataset and prevent overfitting into the training data  
 
