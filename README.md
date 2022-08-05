@@ -34,6 +34,8 @@ Using a cyclic learning rate with a decrement factor of 0.5, with a triangular s
 The same triangular learning rate with a sharp increase and decrement factor of 0.25 results in a similar result, with marginally lower accuracies. The loss and accuracies give smoother curves in this case. 
 
 
+
+
 IMPROVEMENTS: 
 1. Trying out decrement factors other than 0.5 and 0.25.
 2. Using another type of learning rate variation. 
